@@ -1,8 +1,6 @@
 {
-    "manufacturer": "Riesi",
     "keyboard_name": "Pikey",
-    "maintainer": "Riesi",
-    "url": "",
+    "url": "https://github.com/Riesi/qmk_firmware_custom/tree/master/keyboards/riesi/pikey",
     "processor": "RP2040",
     "bootloader": "rp2040",
     "usb": {
@@ -27,7 +25,7 @@
         "pin": "GP26"
     },
     "layouts": {
-        "LAYOUT": {
+        "LAYOUT_pi_max": {
             "layout": [
                 { "label": "KC_ESC", "x": 0, "y": 0, "matrix": [0, 0]},
                 { "label": "KC_F1", "x": 1.5, "y": 0, "matrix": [0, 1]},
