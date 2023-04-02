@@ -1,0 +1,55 @@
+{
+    "keyboard_name": "Picokey",
+    "url": "https://github.com/Riesi/qmk_firmware_custom/tree/master/keyboards/riesi/picokey",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false
+    },
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP2", "GP3", "GP5", "GP4"],
+        "rows": ["GP16", "GP17", "GP18", "GP19", "GP20", "GP21"]
+    },
+    "backlight": {
+        "pin": "GP28"
+    },
+    "layouts": {
+        "LAYOUT_pi_num": {
+            "layout": [
+                { "label": "KC_A", "x": 0, "y": 0, "matrix": [0, 0]},
+                { "label": "KC_A", "x": 1, "y": 0, "matrix": [0, 1]},
+                { "label": "KC_A", "x": 2, "y": 0, "matrix": [0, 2]},
+                { "label": "KC_A", "x": 3, "y": 0, "matrix": [0, 3]},
+
+                { "label": "KC_A", "x": 0, "y": 1.5, "matrix": [1, 0]},
+                { "label": "KC_A", "x": 1, "y": 1.5, "matrix": [1, 1]},
+                { "label": "KC_PAST", "x": 2, "y": 1.5, "matrix": [1, 2]},
+                { "label": "KC_PMNS", "x": 3, "y": 1.5, "matrix": [1, 3]},
+                { "label": "KC_P7", "x": 0, "y": 2.5, "matrix": [2, 0]},
+                { "label": "KC_P8", "x": 1, "y": 2.5, "matrix": [2, 1]},
+                { "label": "KC_P9", "x": 2, "y": 2.5, "matrix": [2, 2]},
+                { "label": "KC_PPLS", "x": 3, "y": 2.5, "h": 2, "matrix": [2, 3]},
+                { "label": "KC_P4", "x": 0, "y": 3.5, "matrix": [3, 0]},
+                { "label": "KC_P5", "x": 1, "y": 3.5, "matrix": [3, 1]},
+                { "label": "KC_P6", "x": 2, "y": 3.5, "matrix": [3, 2]},
+                { "label": "KC_P1", "x": 0, "y": 4.5, "matrix": [3, 3]},
+                { "label": "KC_P2", "x": 1, "y": 4.5, "matrix": [4, 0]},
+                { "label": "KC_P3", "x": 2, "y": 4.5, "matrix": [4, 1]},
+                { "label": "KC_PENT", "x": 3, "y": 4.5, "h": 2, "matrix": [4, 2]},
+                { "label": "KC_P0", "x": 0, "y": 5.5, "w": 2, "matrix": [5, 0]},
+                { "label": "KC_PDOT", "x": 2, "y": 5.5, "matrix": [5, 1]}
+            ]
+        }
+    }
+}
